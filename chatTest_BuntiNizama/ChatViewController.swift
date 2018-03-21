@@ -42,7 +42,6 @@ class ChatViewController: UIViewController,UITableViewDataSource
     {
         arrayChatData.removeAll()
         
-       // if arrayData.count ==
        for dictData in arrayData
        {
         let msg = MessageModel(dict: dictData as! NSMutableDictionary)
