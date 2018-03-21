@@ -1,9 +1,3 @@
-//
-//  ChatCell.swift
-//  Hardik_HeliosTest
-//  Created by Hardik on 3/12/18.
-//  Copyright © 2018 Hardik. All rights reserved.
-//
 
 import UIKit
 

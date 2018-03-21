@@ -41,9 +41,11 @@ class ChatViewController: UIViewController,UITableViewDataSource
     func convertArrayToModelArray(arrayData : NSMutableArray)
     {
         arrayChatData.removeAll()
-       for index in 0...arrayData.count-1
+        
+       // if arrayData.count ==
+       for dictData in arrayData
        {
-        let msg = MessageModel(dict: arrayData[index] as! NSMutableDictionary)
+        let msg = MessageModel(dict: dictData as! NSMutableDictionary)
         arrayChatData.append(msg)
         
         }
