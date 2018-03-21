@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7B96D52DEA26A6E80088604B /* Pods_chatTest_BuntiNizama.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36343C2CCE700DB2BF2715FA /* Pods_chatTest_BuntiNizama.framework */; };
 		EF2DDF452062A51F006E980E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2DDF442062A51F006E980E /* AppDelegate.swift */; };
 		EF2DDF472062A51F006E980E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2DDF462062A51F006E980E /* ViewController.swift */; };
 		EF2DDF4A2062A521006E980E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF2DDF482062A521006E980E /* Main.storyboard */; };
@@ -19,25 +20,13 @@
 		EF2DDF642062CC50006E980E /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2DDF632062CC50006E980E /* ChatViewController.swift */; };
 		EF2DDF672062CF47006E980E /* MessageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2DDF662062CF47006E980E /* MessageModel.swift */; };
 		EF2DDF6B2062D62E006E980E /* ChatCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2DDF692062D62E006E980E /* ChatCell.swift */; };
-		EF2DE0672062F982006E980E /* IQNSArray+Sort.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2DE0522062F982006E980E /* IQNSArray+Sort.swift */; };
-		EF2DE0682062F982006E980E /* IQUIScrollView+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2DE0532062F982006E980E /* IQUIScrollView+Additions.swift */; };
-		EF2DE0692062F982006E980E /* IQUITextFieldView+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2DE0542062F982006E980E /* IQUITextFieldView+Additions.swift */; };
-		EF2DE06A2062F982006E980E /* IQUIView+Hierarchy.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2DE0552062F982006E980E /* IQUIView+Hierarchy.swift */; };
-		EF2DE06B2062F982006E980E /* IQUIViewController+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2DE0562062F982006E980E /* IQUIViewController+Additions.swift */; };
-		EF2DE06C2062F982006E980E /* IQKeyboardManagerConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2DE0582062F982006E980E /* IQKeyboardManagerConstants.swift */; };
-		EF2DE06D2062F982006E980E /* IQKeyboardManagerConstantsInternal.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2DE0592062F982006E980E /* IQKeyboardManagerConstantsInternal.swift */; };
-		EF2DE06E2062F982006E980E /* IQKeyboardManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2DE05A2062F982006E980E /* IQKeyboardManager.swift */; };
-		EF2DE06F2062F982006E980E /* IQKeyboardReturnKeyHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2DE05C2062F982006E980E /* IQKeyboardReturnKeyHandler.swift */; };
-		EF2DE0702062F982006E980E /* IQTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2DE05E2062F982006E980E /* IQTextView.swift */; };
-		EF2DE0712062F982006E980E /* IQBarButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2DE0602062F982006E980E /* IQBarButtonItem.swift */; };
-		EF2DE0722062F982006E980E /* IQPreviousNextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2DE0612062F982006E980E /* IQPreviousNextView.swift */; };
-		EF2DE0732062F982006E980E /* IQTitleBarButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2DE0622062F982006E980E /* IQTitleBarButtonItem.swift */; };
-		EF2DE0742062F982006E980E /* IQToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2DE0632062F982006E980E /* IQToolbar.swift */; };
-		EF2DE0752062F982006E980E /* IQUIView+IQKeyboardToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2DE0642062F982006E980E /* IQUIView+IQKeyboardToolbar.swift */; };
-		EF2DE0762062F982006E980E /* IQKeyboardManager.bundle in Resources */ = {isa = PBXBuildFile; fileRef = EF2DE0662062F982006E980E /* IQKeyboardManager.bundle */; };
+		EF2DE0782062FB1E006E980E /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = EF2DE0772062FB1E006E980E /* Podfile */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		213E1B64A607809589C5E9EB /* Pods-chatTest_BuntiNizama.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-chatTest_BuntiNizama.release.xcconfig"; path = "Pods/Target Support Files/Pods-chatTest_BuntiNizama/Pods-chatTest_BuntiNizama.release.xcconfig"; sourceTree = "<group>"; };
+		36343C2CCE700DB2BF2715FA /* Pods_chatTest_BuntiNizama.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_chatTest_BuntiNizama.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		409711390880290351658368 /* Pods-chatTest_BuntiNizama.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-chatTest_BuntiNizama.debug.xcconfig"; path = "Pods/Target Support Files/Pods-chatTest_BuntiNizama/Pods-chatTest_BuntiNizama.debug.xcconfig"; sourceTree = "<group>"; };
 		EF2DDF412062A51F006E980E /* chatTest_BuntiNizama.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = chatTest_BuntiNizama.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF2DDF442062A51F006E980E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EF2DDF462062A51F006E980E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -54,23 +43,7 @@
 		EF2DDF632062CC50006E980E /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
 		EF2DDF662062CF47006E980E /* MessageModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageModel.swift; sourceTree = "<group>"; };
 		EF2DDF692062D62E006E980E /* ChatCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatCell.swift; sourceTree = "<group>"; };
-		EF2DE0522062F982006E980E /* IQNSArray+Sort.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQNSArray+Sort.swift"; sourceTree = "<group>"; };
-		EF2DE0532062F982006E980E /* IQUIScrollView+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQUIScrollView+Additions.swift"; sourceTree = "<group>"; };
-		EF2DE0542062F982006E980E /* IQUITextFieldView+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQUITextFieldView+Additions.swift"; sourceTree = "<group>"; };
-		EF2DE0552062F982006E980E /* IQUIView+Hierarchy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQUIView+Hierarchy.swift"; sourceTree = "<group>"; };
-		EF2DE0562062F982006E980E /* IQUIViewController+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQUIViewController+Additions.swift"; sourceTree = "<group>"; };
-		EF2DE0582062F982006E980E /* IQKeyboardManagerConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQKeyboardManagerConstants.swift; sourceTree = "<group>"; };
-		EF2DE0592062F982006E980E /* IQKeyboardManagerConstantsInternal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQKeyboardManagerConstantsInternal.swift; sourceTree = "<group>"; };
-		EF2DE05A2062F982006E980E /* IQKeyboardManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQKeyboardManager.swift; sourceTree = "<group>"; };
-		EF2DE05B2062F982006E980E /* IQKeyboardManagerSwift.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQKeyboardManagerSwift.h; sourceTree = "<group>"; };
-		EF2DE05C2062F982006E980E /* IQKeyboardReturnKeyHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQKeyboardReturnKeyHandler.swift; sourceTree = "<group>"; };
-		EF2DE05E2062F982006E980E /* IQTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQTextView.swift; sourceTree = "<group>"; };
-		EF2DE0602062F982006E980E /* IQBarButtonItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQBarButtonItem.swift; sourceTree = "<group>"; };
-		EF2DE0612062F982006E980E /* IQPreviousNextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQPreviousNextView.swift; sourceTree = "<group>"; };
-		EF2DE0622062F982006E980E /* IQTitleBarButtonItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQTitleBarButtonItem.swift; sourceTree = "<group>"; };
-		EF2DE0632062F982006E980E /* IQToolbar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQToolbar.swift; sourceTree = "<group>"; };
-		EF2DE0642062F982006E980E /* IQUIView+IQKeyboardToolbar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQUIView+IQKeyboardToolbar.swift"; sourceTree = "<group>"; };
-		EF2DE0662062F982006E980E /* IQKeyboardManager.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = IQKeyboardManager.bundle; sourceTree = "<group>"; };
+		EF2DE0772062FB1E006E980E /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,17 +51,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B96D52DEA26A6E80088604B /* Pods_chatTest_BuntiNizama.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		59CCD1D0338EA46E03C1FBFD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				36343C2CCE700DB2BF2715FA /* Pods_chatTest_BuntiNizama.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8E4AFD6A07A73611221153C4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				409711390880290351658368 /* Pods-chatTest_BuntiNizama.debug.xcconfig */,
+				213E1B64A607809589C5E9EB /* Pods-chatTest_BuntiNizama.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		EF2DDF382062A51E006E980E = {
 			isa = PBXGroup;
 			children = (
 				EF2DDF432062A51F006E980E /* chatTest_BuntiNizama */,
+				EF2DE0772062FB1E006E980E /* Podfile */,
 				EF2DDF422062A51F006E980E /* Products */,
+				8E4AFD6A07A73611221153C4 /* Pods */,
+				59CCD1D0338EA46E03C1FBFD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -116,7 +110,6 @@
 				EF2DDF4D2062A521006E980E /* LaunchScreen.storyboard */,
 				EF2DDF502062A521006E980E /* Info.plist */,
 				EF2DDF622062C264006E980E /* chatTest_BuntiNizama-Bridging-Header.h */,
-				EF2DE0502062F982006E980E /* IQKeyboardManagerSwift */,
 				EF2DDF5E2062C23D006E980E /* MBProgress */,
 			);
 			path = chatTest_BuntiNizama;
@@ -163,70 +156,6 @@
 			path = CustomCells;
 			sourceTree = "<group>";
 		};
-		EF2DE0502062F982006E980E /* IQKeyboardManagerSwift */ = {
-			isa = PBXGroup;
-			children = (
-				EF2DE0512062F982006E980E /* Categories */,
-				EF2DE0572062F982006E980E /* Constants */,
-				EF2DE05A2062F982006E980E /* IQKeyboardManager.swift */,
-				EF2DE05B2062F982006E980E /* IQKeyboardManagerSwift.h */,
-				EF2DE05C2062F982006E980E /* IQKeyboardReturnKeyHandler.swift */,
-				EF2DE05D2062F982006E980E /* IQTextView */,
-				EF2DE05F2062F982006E980E /* IQToolbar */,
-				EF2DE0652062F982006E980E /* Resources */,
-			);
-			path = IQKeyboardManagerSwift;
-			sourceTree = "<group>";
-		};
-		EF2DE0512062F982006E980E /* Categories */ = {
-			isa = PBXGroup;
-			children = (
-				EF2DE0522062F982006E980E /* IQNSArray+Sort.swift */,
-				EF2DE0532062F982006E980E /* IQUIScrollView+Additions.swift */,
-				EF2DE0542062F982006E980E /* IQUITextFieldView+Additions.swift */,
-				EF2DE0552062F982006E980E /* IQUIView+Hierarchy.swift */,
-				EF2DE0562062F982006E980E /* IQUIViewController+Additions.swift */,
-			);
-			path = Categories;
-			sourceTree = "<group>";
-		};
-		EF2DE0572062F982006E980E /* Constants */ = {
-			isa = PBXGroup;
-			children = (
-				EF2DE0582062F982006E980E /* IQKeyboardManagerConstants.swift */,
-				EF2DE0592062F982006E980E /* IQKeyboardManagerConstantsInternal.swift */,
-			);
-			path = Constants;
-			sourceTree = "<group>";
-		};
-		EF2DE05D2062F982006E980E /* IQTextView */ = {
-			isa = PBXGroup;
-			children = (
-				EF2DE05E2062F982006E980E /* IQTextView.swift */,
-			);
-			path = IQTextView;
-			sourceTree = "<group>";
-		};
-		EF2DE05F2062F982006E980E /* IQToolbar */ = {
-			isa = PBXGroup;
-			children = (
-				EF2DE0602062F982006E980E /* IQBarButtonItem.swift */,
-				EF2DE0612062F982006E980E /* IQPreviousNextView.swift */,
-				EF2DE0622062F982006E980E /* IQTitleBarButtonItem.swift */,
-				EF2DE0632062F982006E980E /* IQToolbar.swift */,
-				EF2DE0642062F982006E980E /* IQUIView+IQKeyboardToolbar.swift */,
-			);
-			path = IQToolbar;
-			sourceTree = "<group>";
-		};
-		EF2DE0652062F982006E980E /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				EF2DE0662062F982006E980E /* IQKeyboardManager.bundle */,
-			);
-			path = Resources;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -234,9 +163,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EF2DDF532062A521006E980E /* Build configuration list for PBXNativeTarget "chatTest_BuntiNizama" */;
 			buildPhases = (
+				71A668E249766A99C1F0BAD6 /* [CP] Check Pods Manifest.lock */,
 				EF2DDF3D2062A51F006E980E /* Sources */,
 				EF2DDF3E2062A51F006E980E /* Frameworks */,
 				EF2DDF3F2062A51F006E980E /* Resources */,
+				9F28F1E4041514FD23AD7C19 /* [CP] Embed Pods Frameworks */,
+				BE589F568C82422E9D7C7A03 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -286,43 +218,82 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF2DE0782062FB1E006E980E /* Podfile in Resources */,
 				EF2DDF4F2062A521006E980E /* LaunchScreen.storyboard in Resources */,
 				EF2DDF4C2062A521006E980E /* Assets.xcassets in Resources */,
-				EF2DE0762062F982006E980E /* IQKeyboardManager.bundle in Resources */,
 				EF2DDF4A2062A521006E980E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		71A668E249766A99C1F0BAD6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-chatTest_BuntiNizama-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9F28F1E4041514FD23AD7C19 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-chatTest_BuntiNizama/Pods-chatTest_BuntiNizama-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-chatTest_BuntiNizama/Pods-chatTest_BuntiNizama-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BE589F568C82422E9D7C7A03 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-chatTest_BuntiNizama/Pods-chatTest_BuntiNizama-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		EF2DDF3D2062A51F006E980E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EF2DE0682062F982006E980E /* IQUIScrollView+Additions.swift in Sources */,
 				EF2DDF582062A7E9006E980E /* MyMacro.swift in Sources */,
-				EF2DE0722062F982006E980E /* IQPreviousNextView.swift in Sources */,
-				EF2DE0732062F982006E980E /* IQTitleBarButtonItem.swift in Sources */,
-				EF2DE0692062F982006E980E /* IQUITextFieldView+Additions.swift in Sources */,
-				EF2DE06D2062F982006E980E /* IQKeyboardManagerConstantsInternal.swift in Sources */,
-				EF2DE0752062F982006E980E /* IQUIView+IQKeyboardToolbar.swift in Sources */,
 				EF2DDF612062C23D006E980E /* MBProgressHUD.m in Sources */,
 				EF2DDF6B2062D62E006E980E /* ChatCell.swift in Sources */,
-				EF2DE0742062F982006E980E /* IQToolbar.swift in Sources */,
 				EF2DDF5A2062B294006E980E /* UserListViewController.swift in Sources */,
 				EF2DDF672062CF47006E980E /* MessageModel.swift in Sources */,
-				EF2DE06F2062F982006E980E /* IQKeyboardReturnKeyHandler.swift in Sources */,
-				EF2DE06A2062F982006E980E /* IQUIView+Hierarchy.swift in Sources */,
 				EF2DDF642062CC50006E980E /* ChatViewController.swift in Sources */,
-				EF2DE0672062F982006E980E /* IQNSArray+Sort.swift in Sources */,
-				EF2DE06E2062F982006E980E /* IQKeyboardManager.swift in Sources */,
-				EF2DE06B2062F982006E980E /* IQUIViewController+Additions.swift in Sources */,
-				EF2DE0712062F982006E980E /* IQBarButtonItem.swift in Sources */,
 				EF2DDF5D2062C1FD006E980E /* NetworkUtils.swift in Sources */,
 				EF2DDF472062A51F006E980E /* ViewController.swift in Sources */,
-				EF2DE06C2062F982006E980E /* IQKeyboardManagerConstants.swift in Sources */,
-				EF2DE0702062F982006E980E /* IQTextView.swift in Sources */,
 				EF2DDF452062A51F006E980E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -458,6 +429,7 @@
 		};
 		EF2DDF542062A521006E980E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 409711390880290351658368 /* Pods-chatTest_BuntiNizama.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -475,6 +447,7 @@
 		};
 		EF2DDF552062A521006E980E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 213E1B64A607809589C5E9EB /* Pods-chatTest_BuntiNizama.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

@@ -1,5 +1,5 @@
 //
-//  IQKeyboardManagerSwift.h
+//  IQKeyboardManagerConstantsInternal.swift
 // https://github.com/hackiftekhar/IQKeyboardManager
 // Copyright (c) 2013-16 Iftekhar Qurashi.
 //
@@ -21,14 +21,25 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
 
-#import <UIKit/UIKit.h>
 
-//! Project version number for IQKeyboardManagerSwift.
-FOUNDATION_EXPORT double IQKeyboardManagerSwiftVersionNumber;
+import Foundation
 
-//! Project version string for IQKeyboardManagerSwift.
-FOUNDATION_EXPORT const unsigned char IQKeyboardManagerSwiftVersionString[];
+///-----------------------------------
+/// MARK: IQLayoutGuidePosition
+///-----------------------------------
 
-// In this header, you should import all the public headers of your framework using statements like #import <IQKeyboardManagerSwift/PublicHeader.h>
+/**
+`IQLayoutGuidePositionNone`
+If there are no IQLayoutGuideConstraint associated with viewController
 
+`IQLayoutGuidePositionTop`
+If provided IQLayoutGuideConstraint is associated with with viewController topLayoutGuide
 
+`IQLayoutGuidePositionBottom`
+If provided IQLayoutGuideConstraint is associated with with viewController bottomLayoutGuide
+*/
+enum IQLayoutGuidePosition : Int {
+    case none
+    case top
+    case bottom
+}

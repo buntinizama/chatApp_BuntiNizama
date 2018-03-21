@@ -35,7 +35,7 @@ open class IQToolbar: UIToolbar , UIInputViewAudioFeedback {
 
         appearanceProxy.barTintColor = nil
         
-        let positions : [UIBarPosition] = [.any,.bottom,.top,.topAttached]
+        let positions : [UIBarPosition] = [.any,.bottom,.top,.topAttached];
 
         for position in positions {
 
@@ -119,24 +119,6 @@ open class IQToolbar: UIToolbar , UIInputViewAudioFeedback {
         }
     }
 
-    /**
-     Fixed space bar button of toolbar.
-     */
-    private var privateFixedSpaceBarButton: IQBarButtonItem?
-    open var fixedSpaceBarButton : IQBarButtonItem {
-        get {
-            if privateFixedSpaceBarButton == nil {
-                privateFixedSpaceBarButton = IQBarButtonItem(barButtonSystemItem: .fixedSpace, target: nil, action: nil)
-            }
-            privateFixedSpaceBarButton!.isSystemItem = true
-            return privateFixedSpaceBarButton!
-        }
-        
-        set (newValue) {
-            privateFixedSpaceBarButton = newValue
-        }
-    }
-
     override init(frame: CGRect) {
         _ = IQToolbar._classInitialize
         super.init(frame: frame)
@@ -175,12 +157,10 @@ open class IQToolbar: UIToolbar , UIInputViewAudioFeedback {
     override open var barStyle: UIBarStyle {
         didSet {
             
-            if titleBarButton.selectableTitleColor == nil {
-                if barStyle == .default {
-                    titleBarButton.titleButton?.setTitleColor(UIColor.init(red: 0.0, green: 0.5, blue: 1.0, alpha: 1), for: .normal)
-                } else {
-                    titleBarButton.titleButton?.setTitleColor(UIColor.yellow, for: .normal)
-                }
+            if barStyle == .default {
+                titleBarButton.selectableTextColor = UIColor.init(red: 0.0, green: 0.5, blue: 1.0, alpha: 1)
+            } else {
+                titleBarButton.selectableTextColor = UIColor.yellow
             }
         }
     }
@@ -346,15 +326,5 @@ open class IQToolbar: UIToolbar , UIInputViewAudioFeedback {
     
     open var enableInputClicksWhenVisible: Bool {
         return true
-    }
-    
-    deinit {
-
-        items = nil
-        privatePreviousBarButton = nil
-        privateNextBarButton = nil
-        privateTitleBarButton = nil
-        privateDoneBarButton = nil
-        privateFixedSpaceBarButton = nil
     }
 }

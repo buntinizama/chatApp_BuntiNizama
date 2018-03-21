@@ -1,0 +1,6 @@
+framework module Pods_chatTest_BuntiNizama {
+  umbrella header "Pods-chatTest_BuntiNizama-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -23,6 +23,25 @@
 
 
 import UIKit
+fileprivate func < <T : Comparable>(lhs: T?, rhs: T?) -> Bool {
+  switch (lhs, rhs) {
+  case let (l?, r?):
+    return l < r
+  case (nil, _?):
+    return true
+  default:
+    return false
+  }
+}
+
+fileprivate func > <T : Comparable>(lhs: T?, rhs: T?) -> Bool {
+  switch (lhs, rhs) {
+  case let (l?, r?):
+    return l > r
+  default:
+    return rhs < lhs
+  }
+}
 
 private var kIQShouldHideToolbarPlaceholder = "kIQShouldHideToolbarPlaceholder"
 private var kIQToolbarPlaceholder           = "kIQToolbarPlaceholder"
@@ -158,7 +177,7 @@ public extension UIView {
     /// MARK: Private helper
     ///---------------------
     
-    private static func flexibleBarButtonItem () -> IQBarButtonItem {
+    fileprivate static func flexibleBarButtonItem () -> IQBarButtonItem {
         
         struct Static {
             static let nilButton = IQBarButtonItem(barButtonSystemItem:UIBarButtonSystemItem.flexibleSpace, target: nil, action: nil)
@@ -228,9 +247,6 @@ public extension UIView {
                 doneButton.invocation = toolbar.doneBarButton.invocation
                 doneButton.accessibilityLabel = toolbar.doneBarButton.accessibilityLabel
                 toolbar.doneBarButton = doneButton
-            } else {
-                doneButton.target = target
-                doneButton.action = action
             }
 
             items.append(doneButton)
@@ -540,9 +556,6 @@ public extension UIView {
                 cancelButton.invocation = toolbar.previousBarButton.invocation
                 cancelButton.accessibilityLabel = toolbar.previousBarButton.accessibilityLabel
                 toolbar.previousBarButton = cancelButton
-            } else {
-                cancelButton.target = target
-                cancelButton.action = cancelAction
             }
 
             items.append(cancelButton)
@@ -575,9 +588,6 @@ public extension UIView {
                 doneButton.invocation = toolbar.doneBarButton.invocation
                 doneButton.accessibilityLabel = toolbar.doneBarButton.accessibilityLabel
                 toolbar.doneBarButton = doneButton
-            } else {
-                doneButton.target = target
-                doneButton.action = doneAction
             }
 
             items.append(doneButton)
@@ -865,7 +875,8 @@ public extension UIView {
             items.append(prev)
 
             //Fixed space
-            let fixed = toolbar.fixedSpaceBarButton
+            let fixed = IQBarButtonItem(barButtonSystemItem: UIBarButtonSystemItem.fixedSpace, target: nil, action: nil)
+            fixed.isSystemItem = true
             if #available(iOS 10, *) {
                 fixed.width = 6
             } else {
@@ -904,9 +915,6 @@ public extension UIView {
                 doneButton.invocation = toolbar.doneBarButton.invocation
                 doneButton.accessibilityLabel = toolbar.doneBarButton.accessibilityLabel
                 toolbar.doneBarButton = doneButton
-            } else {
-                doneButton.target = target
-                doneButton.action = doneAction
             }
 
             items.append(doneButton)
@@ -1042,7 +1050,8 @@ public extension UIView {
             items.append(prev)
             
             //Fixed space
-            let fixed = toolbar.fixedSpaceBarButton
+            let fixed = IQBarButtonItem(barButtonSystemItem: UIBarButtonSystemItem.fixedSpace, target: nil, action: nil)
+            fixed.isSystemItem = true
             if #available(iOS 10, *) {
                 fixed.width = 6
             } else {
@@ -1233,7 +1242,8 @@ public extension UIView {
             items.append(prev)
 
             //Fixed space
-            let fixed = toolbar.fixedSpaceBarButton
+            let fixed = IQBarButtonItem(barButtonSystemItem: UIBarButtonSystemItem.fixedSpace, target: nil, action: nil)
+            fixed.isSystemItem = true
             if #available(iOS 10, *) {
                 fixed.width = 6
             } else {

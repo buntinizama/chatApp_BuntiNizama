@@ -44,7 +44,7 @@ open class IQBarButtonItem: UIBarButtonItem {
 
         let  appearanceProxy = self.appearance()
 
-        let states : [UIControlState] = [.normal,.highlighted,.disabled,.selected,.application,.reserved]
+        let states : [UIControlState] = [.normal,.highlighted,.disabled,.selected,.application,.reserved];
 
         for state in states {
 
@@ -56,6 +56,7 @@ open class IQBarButtonItem: UIBarButtonItem {
         
         appearanceProxy.setTitlePositionAdjustment(UIOffset.zero, for: .default)
         appearanceProxy.setBackgroundVerticalPositionAdjustment(0, for: .default)
+        appearanceProxy.setBackButtonTitlePositionAdjustment(UIOffset.zero, for: .default)
         appearanceProxy.setBackButtonBackgroundVerticalPositionAdjustment(0, for: .default)
     }
     
@@ -96,7 +97,7 @@ open class IQBarButtonItem: UIBarButtonItem {
     /**
      Boolean to know if it's a system item or custom item, we are having a limitation that we cannot override a designated initializer, so we are manually setting this property once in initialization
      */
-    @objc internal var isSystemItem = false
+    @objc var isSystemItem = false
     
 //    public override init(barButtonSystemItem systemItem: UIBarButtonSystemItem, target: Any?, action: Selector?) {
 //        return super.init(barButtonSystemItem: systemItem, target: target, action: action)
@@ -115,12 +116,6 @@ open class IQBarButtonItem: UIBarButtonItem {
     /**
      Customized Invocation to be called when button is pressed. invocation is internally created using setTarget:action: method.
      */
-    open var invocation : (target: AnyObject?, action: Selector?)?
+    open var invocation : (target: AnyObject?, action: Selector?)
     
-    deinit {
-
-        target = nil
-        invocation?.target = nil
-        invocation = nil
-    }
 }
