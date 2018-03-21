@@ -1,5 +1,5 @@
 //
-// IQPreviousNextView.m
+//  IQKeyboardManagerSwift.h
 // https://github.com/hackiftekhar/IQKeyboardManager
 // Copyright (c) 2013-16 Iftekhar Qurashi.
 //
@@ -21,8 +21,14 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
 
-#import "IQPreviousNextView.h"
+#import <UIKit/UIKit.h>
 
-@implementation IQPreviousNextView
+//! Project version number for IQKeyboardManagerSwift.
+FOUNDATION_EXPORT double IQKeyboardManagerSwiftVersionNumber;
 
-@end
+//! Project version string for IQKeyboardManagerSwift.
+FOUNDATION_EXPORT const unsigned char IQKeyboardManagerSwiftVersionString[];
+
+// In this header, you should import all the public headers of your framework using statements like #import <IQKeyboardManagerSwift/PublicHeader.h>
+
+
