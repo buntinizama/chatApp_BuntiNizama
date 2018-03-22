@@ -11,7 +11,7 @@ import UIKit
 
 class NetworkUtils: NSObject {
 
-    static let  BaseURL =  "https://chat.promactinfo.com/api/"
+    static let BaseURL =  "https://chat.promactinfo.com/api/"
     static let LoginAPI =  "user/login"
     static let GetUsers =  "user"
     static let APIName =  "APIName"

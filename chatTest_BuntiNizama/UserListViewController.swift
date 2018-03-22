@@ -18,8 +18,9 @@ class UserListViewController: UIViewController,UITableViewDelegate,UITableViewDa
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        //MyMacro.sharedInstance.saveToPreferences(dict.value(forKey: NetworkUtils.Name) as! String as AnyObject, ForKey: NetworkUtils.Name)
         // Do any additional setup after loading the view.
-        
+        self.title = "User : \(MyMacro.sharedInstance.getFromPreferences(key: NetworkUtils.Name))"
         //get user list from server
         self.getUsers()
     }

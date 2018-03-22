@@ -19,6 +19,7 @@ class ChatViewController: UIViewController,UITableViewDataSource
     var arrayChatData : [MessageModel]!
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.title = selectedUser.value(forKey: "name") as! String
         arrayChatData = [MessageModel]()
         self.getChatFromServer()
         // Do any additional setup after loading the view.

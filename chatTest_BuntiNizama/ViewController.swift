@@ -57,6 +57,8 @@ class ViewController: UIViewController {
     
     func navigateToUserListPage()
     {
+        
+        txtUserName.text = ""
         let storyboard = UIStoryboard.init(name: "Main", bundle: nil)
         let userList = storyboard.instantiateViewController(withIdentifier: "UserListViewController")
         
